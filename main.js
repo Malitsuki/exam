@@ -12,8 +12,8 @@ function getArray() {
         array2.sort()
                 
     }
-    alert(array1)
-    alert(array2)
+    document.getElementById("array1").innerHTML = array1
+    document.getElementById("array2").innerHTML = array2
 
 }
     
